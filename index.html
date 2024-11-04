@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Ecommerce Website</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <div class="header__top">
+            <div class="header__container container">
+                <div class="header__contact">
+                    <span>(+62) - 8952 - 5873 - 053</span>
+                    <span>Our location</span>
+                </div>
+                <p class="header__alert-news">
+                    Super Values Deals - Save more coupons
+                </p>
+                <a href="login-register.html" class="header__top-action">
+            Log In / Sign Up
+          </a>
+            </div>
+        </div>
+
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img class="nav__logo-img" src="assets/img/logo.svg" alt="website logo" />
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__menu-top">
+                    <a href="index.html" class="nav__menu-logo">
+                        <img src="./assets/img/logo.svg" alt="">
+                    </a>
+                    <div class="nav__close" id="nav-close">
+                        <i class="fi fi-rs-cross-small"></i>
+                    </div>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="shop.html" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="accounts.html" class="nav__link">My Account</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="compare.html" class="nav__link">About Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="login-register.html" class="nav__link">Login</a>
+                    </li>
+                </ul>
+                <div class="header__search">
+                    <input type="text" placeholder="Search For Items..." class="form__input" />
+                    <button class="search__btn">
+              <img src="assets/img/search.png" alt="search icon" />
+            </button>
+                </div>
+            </div>
+            <div class="header__user-actions">
+                <a href="wishlist.html" class="header__action-btn" title="Wishlist">
+                    <img src="assets/img/icon-heart.svg" alt="" />
+                    <span class="count">3</span>
+                </a>
+                <a href="cart.html" class="header__action-btn" title="Cart">
+                    <img src="assets/img/icon-cart.svg" alt="" />
+                    <span class="count">3</span>
+                </a>
+                <div class="header__action-btn nav__toggle" id="nav-toggle">
+                    <img src="./assets//img/menu-burger.svg" alt="">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section--lg">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__subtitle">Hot Promotions</span>
+                    <h1 class="home__title">
+                        Special Offers <span> Freshly Baked Delights</span>
+                    </h1>
+                    <p class="home__description">
+                        Save more with coupons & up tp 10% off
+                    </p>
+                    <a href="shop.html" class="btn">Shop Now</a>
+                </div>
+                <img src="assets/img/home-bakery.png" class="home__img" alt="Bakery" />
+            </div>
+        </section>
+
+        <!--=============== CATEGORIES ===============-->
+        <section class="categories container section">
+            <h3 class="section__title"><span>Popular</span> Products</h3>
+            <div class="categories__container swiper">
+                <div class="swiper-wrapper">
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/croissant-1.png" alt="" class="category__img" />
+                        <h3 class="category__title">Croissant</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/donat-1.png" alt="" class="category__img" />
+                        <h3 class="category__title">Donat</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/pretzel-1.png" alt="" class="category__img" />
+                        <h3 class="category__title">Pretzel</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/sandwich-1.png" alt="" class="category__img" />
+                        <h3 class="category__title">Sandwich</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/bagel-1.png" alt="" class="category__img" />
+                        <h3 class="category__title">Bagel</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/sourdough-1.png" alt="" class="category__img" />
+                        <h3 class="category__title">Sourdough</h3>
+                    </a>
+                    <a href="shop.html" class="category__item swiper-slide">
+                        <img src="assets/img/scone-1.png" alt="" class="category__img" />
+                        <h3 class="category__title">Scone</h3>
+                    </a>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="fi fi-rs-angle-left"></i>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="fi fi-rs-angle-right"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== PRODUCTS ===============-->
+        <section class="products container section">
+            <div class="tab__btns">
+                <span class="tab__btn active-tab" data-target="#featured">Featured</span
+          >
+          <span class="tab__btn" data-target="#popular">Popular</span>
+                <span class="tab__btn" data-target="#new-added">New Added</span>
+            </div>
+
+            <div class="tab__items">
+                <div class="tab__item active-tab" content id="featured">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/croissant-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/croissant-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Croissant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp15.000</span>
+                                    <span class="old__price">Rp20.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/tawar-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/tawar-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Roti Tawar Gandum</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp25.000</span>
+                                    <span class="old__price">Rp28.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/donat-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/donat-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-orange">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Donat (Isi 6 Pcs)</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp66.000</span>
+                                    <span class="old__price">Rp70.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/muffin-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/muffin-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-blue">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Chocolate Muffin</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp12.000</span>
+                                    <span class="old__price">Rp15.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/sandwich-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/sandwich-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-blue">-10%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Sandwich</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp13.500</span>
+                                    <span class="old__price">Rp15.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/sourdough-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/sourdough-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-blue">-10%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Sourdough</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp32.400</span>
+                                    <span class="old__price">Rp36.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/ciabatta-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/ciabatta-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">-10%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Ciabatta</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp22.500</span>
+                                    <span class="old__price">Rp25.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/bagel-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/bagel-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Bagel</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp18.000</span>
+                                    <span class="old__price">Rp20.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__item" content id="popular">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/croissant-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/croissant-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Croissant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp15.000</span>
+                                    <span class="old__price">Rp20.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/tawar-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/tawar-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Roti Tawar Gandum</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp25.000</span>
+                                    <span class="old__price">Rp28.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/pretzel-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/pretzel-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-orange">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Pretzel</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp27.000</span>
+                                    <span class="old__price">Rp30.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/muffin-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/muffin-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-blue">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Chocolate Muffin</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp12.000</span>
+                                    <span class="old__price">Rp15.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/sandwich-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/sandwich-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-blue">-10%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Sandwich</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp13.500</span>
+                                    <span class="old__price">Rp15.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/scone-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/scone-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-blue">-10%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Scone</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp22.500</span>
+                                    <span class="old__price">Rp25.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/ciabatta-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/ciabatta-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">-10%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Ciabatta</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp22.500</span>
+                                    <span class="old__price">Rp25.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/bagel-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/bagel-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Bagel</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp18.000</span>
+                                    <span class="old__price">Rp20.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__item" content id="new-added">
+                    <div class="products__container grid">
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/croissant-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/croissant-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-pink">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Croissant</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp15.000</span>
+                                    <span class="old__price">Rp20.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/challah-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/challah-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Challah</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp27.000</span>
+                                    <span class="old__price">Rp30.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/baguette-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/baguette-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-orange">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Baguette</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp36.000</span>
+                                    <span class="old__price">Rp40.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/muffin-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/muffin-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-blue">Hot</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Chocolate Muffin</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp12.000</span>
+                                    <span class="old__price">Rp15.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/pretzel-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/pretzel-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-blue">-10%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Pretzel</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp27.000</span>
+                                    <span class="old__price">Rp30.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/sourdough-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/sourdough-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-blue">-10%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Sourdough</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp32.400</span>
+                                    <span class="old__price">Rp36.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/challah-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/challah-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                                <div class="product__badge light-green">-22%</div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Challah</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp27.000</span>
+                                    <span class="old__price">Rp30.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <div class="product__banner">
+                                <a href="details.html" class="product__images">
+                                    <img src="assets/img/bagel-1.png" alt="" class="product__img default" />
+                                    <img src="assets/img/bagel-2.png" alt="" class="product__img hover" />
+                                </a>
+                                <div class="product__actions">
+                                    <a href="#" class="action__btn" aria-label="Quick View">
+                                        <i class="fi fi-rs-eye"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                        <i class="fi fi-rs-heart"></i>
+                                    </a>
+                                    <a href="#" class="action__btn" aria-label="Compare">
+                                        <i class="fi fi-rs-shuffle"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product__content">
+                                <span class="product__category">Bakery</span>
+                                <a href="details.html">
+                                    <h3 class="product__title">Bagel</h3>
+                                </a>
+                                <div class="product__rating">
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                    <i class="fi fi-rs-star"></i>
+                                </div>
+                                <div class="product__price flex">
+                                    <span class="new__price">Rp18.000</span>
+                                    <span class="old__price">Rp20.000</span>
+                                </div>
+                                <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                    <i class="fi fi-rs-shopping-bag-add"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== DEALS ===============-->
+        <section class="deals section">
+            <div class="deals__container container grid">
+                <div class="deals__item">
+                    <div class="deals__group">
+                        <h3 class="deals__brand">Independence Day Special</h3>
+                        <span class="deals__category">Limited quantities</span>
+                    </div>
+                    <h4 class="deals__title">Celebrate Freedom with Delicious Treats!</h4>
+                    <div class="deals__price flex">
+                        <span class="new__price">Rp22.000</span>
+                        <span class="old__price">Rp30.000</span>
+                    </div>
+                    <div class="deals__group">
+                        <p class="deals__countdown-text">Hurry Up! Offer Ends In:</p>
+                        <div class="countdown">
+                            <div class="countdown__amount">
+                                <p class="countdown__period">03</p>
+                                <span class="unit">Days</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">18</p>
+                                <span class="unit">Hours</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">48</p>
+                                <span class="unit">Mins</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">22</p>
+                                <span class="unit">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals__btn">
+                        <a href="details.html" class="btn btn--md">Shop Now</a>
+                    </div>
+                </div>
+                <div class="deals__item">
+                    <div class="deals__group">
+                        <h3 class="deals__brand">Merah Putih Bakery Collection</h3>
+                        <span class="deals__category">Cakes & Pastries</span>
+                    </div>
+                    <h4 class="deals__title">Celebrate Independence with Our Special Red & White Treats!</h4>
+                    <div class="deals__price flex">
+                        <span class="new__price">Rp54.000</span>
+                        <span class="old__price">Rp70.000</span>
+                    </div>
+                    <div class="deals__group">
+                        <p class="deals__countdown-text">Hurry Up! Offer Ends In:</p>
+                        <div class="countdown">
+                            <div class="countdown__amount">
+                                <p class="countdown__period">03</p>
+                                <span class="unit">Days</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">18</p>
+                                <span class="unit">Hours</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">48</p>
+                                <span class="unit">Mins</span>
+                            </div>
+                            <div class="countdown__amount">
+                                <p class="countdown__period">22</p>
+                                <span class="unit">Sec</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deals__btn">
+                        <a href="details.html" class="btn btn--md">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== NEW ARRIVALS ===============-->
+        <section class="new__arrivals container section">
+            <h3 class="section__title"><span>New</span> Arrivals</h3>
+            <div class="new__container swiper">
+                <div class="swiper-wrapper">
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/croissant-1.png" alt="" class="product__img default" />
+                                <img src="assets/img/croissant-2.png" alt="" class="product__img hover" />
+                            </a>
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-pink">Hot</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Bakery</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Croissant</h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">Rp15.000</span>
+                                <span class="old__price">Rp20.000</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/tawar-1.png" alt="" class="product__img default" />
+                                <img src="assets/img/tawar-2.png" alt="" class="product__img hover" />
+                            </a>
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-green">Hot</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Bakery</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Roti Tawar Gandum</h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">Rp25.000</span>
+                                <span class="old__price">Rp28.000</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/donat-1.png" alt="" class="product__img default" />
+                                <img src="assets/img/donat-2.png" alt="" class="product__img hover" />
+                            </a>
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-orange">Hot</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Bakery</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Donat (Isi 6 Pcs)</h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">Rp66.000</span>
+                                <span class="old__price">Rp70.000</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/muffin-1.png" alt="" class="product__img default" />
+                                <img src="assets/img/muffin-2.png" alt="" class="product__img hover" />
+                            </a>
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-blue">Hot</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Bakery</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Chocolate Muffin</h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">Rp12.000</span>
+                                <span class="old__price">Rp15.000</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/sandwich-1.png" alt="" class="product__img default" />
+                                <img src="assets/img/sandwich-2.png" alt="" class="product__img hover" />
+                            </a>
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-blue">-10%</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Bakery</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Sandwich</h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">Rp13.500</span>
+                                <span class="old__price">Rp15.000</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/sourdough-1.png" alt="" class="product__img default" />
+                                <img src="assets/img/sourdough-2.png" alt="" class="product__img hover" />
+                            </a>
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-blue">-10%</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Bakery</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Sourdough</h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">Rp32.400</span>
+                                <span class="old__price">Rp36.000</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item swiper-slide">
+                        <div class="product__banner">
+                            <a href="details.html" class="product__images">
+                                <img src="assets/img/ciabatta-1.png" alt="" class="product__img default" />
+                                <img src="assets/img/ciabatta-2.png" alt="" class="product__img hover" />
+                            </a>
+                            <div class="product__actions">
+                                <a href="#" class="action__btn" aria-label="Quick View">
+                                    <i class="fi fi-rs-eye"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Add to Wishlist">
+                                    <i class="fi fi-rs-heart"></i>
+                                </a>
+                                <a href="#" class="action__btn" aria-label="Compare">
+                                    <i class="fi fi-rs-shuffle"></i>
+                                </a>
+                            </div>
+                            <div class="product__badge light-green">-10%</div>
+                        </div>
+                        <div class="product__content">
+                            <span class="product__category">Bakery</span>
+                            <a href="details.html">
+                                <h3 class="product__title">Ciabatta</h3>
+                            </a>
+                            <div class="product__rating">
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                                <i class="fi fi-rs-star"></i>
+                            </div>
+                            <div class="product__price flex">
+                                <span class="new__price">Rp22.500</span>
+                                <span class="old__price">Rp25.000</span>
+                            </div>
+                            <a href="#" class="action__btn cart__btn" aria-label="Add To Cart">
+                                <i class="fi fi-rs-shopping-bag-add"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="fi fi-rs-angle-left"></i>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="fi fi-rs-angle-right"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SHOWCASE ===============-->
+        <section class="showcase section">
+            <div class="showcase__container container grid">
+                <div class="showcase__wrapper">
+                    <h3 class="section__title">Hot Releases</h3>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-burger.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">
+                                    Burger Cheese Lumiere
+                                </h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp40.500</span>
+                                <span class="old__price">Rp45.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-mix.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">
+                                    Lumiere Mix Pastry Basket
+                                </h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp85.500</span>
+                                <span class="old__price">Rp95.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-bolen.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">
+                                    Bolen
+                                </h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp9.000</span>
+                                <span class="old__price">Rp10.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__wrapper">
+                    <h3 class="section__title">Best Deals</h3>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-tawar.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">Roti Tawar</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp10.000</span>
+                                <span class="old__price">Rp9.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-cupcake.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">Lumiere Deluxe Chocolate Crunch Cake</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp112.500</span>
+                                <span class="old__price">Rp125.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-croissant.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">
+                                    Beef & Cheese Croissant
+                                </h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp22.500</span>
+                                <span class="old__price">Rp25.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__wrapper">
+                    <h3 class="section__title">Top Selling</h3>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-croissant2.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">
+                                    Croissant
+                                </h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp15.000</span>
+                                <span class="old__price">Rp20.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-sandwich.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">Sandwich</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp13.500</span>
+                                <span class="old__price">Rp15.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-gandum.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">
+                                    Roti Tawar Gandum
+                                </h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp25.000</span>
+                                <span class="old__price">Rp28.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="showcase__wrapper">
+                    <h3 class="section__title">Trendy</h3>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-muffin.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">Chocolate Muffin</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp12.000</span>
+                                <span class="old__price">Rp15.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-pretzel.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">Pretzel</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp27.000</span>
+                                <span class="old__price">Rp30.000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase__item">
+                        <a href="details.html" class="showcase__img-box">
+                            <img src="./assets/img/showcase-donat.png" alt="" class="showcase__img" />
+                        </a>
+                        <div class="showcase__content">
+                            <a href="details.html">
+                                <h4 class="showcase__title">Donat (Isi 6 Pcs)</h4>
+                            </a>
+                            <div class="showcase__price flex">
+                                <span class="new__price">Rp66.000</span>
+                                <span class="old__price">Rp70.000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== NEWSLETTER ===============-->
+        <section class="newsletter section home__newsletter">
+            <div class="newsletter__container container grid">
+                <h3 class="newsletter__title flex">
+                    <img src="./assets/img/icon-email.svg" alt="" class="newsletter__icon" /> Sign in to Newsletter
+                </h3>
+                <p class="newsletter__description">
+                    ...and receive Rp10.000 coupon for first shopping.
+                </p>
+                <form action="" class="newsletter__form">
+                    <input type="text" placeholder="Enter Your Email" class="newsletter__input" />
+                    <button type="submit" class="newsletter__btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <div class="footer__container grid">
+            <div class="footer__content">
+                <a href="index.html" class="footer__logo">
+                    <img src="./assets/img/logo.svg" alt="" class="footer__logo-img" />
+                </a>
+                <h4 class="footer__subtitle">Contact</h4>
+                <p class="footer__description">
+                    <span>Address:</span> Jalan Desa, Klaling, Jekulo, Kudus, Jawa Tengah 59382
+                </p>
+                <p class="footer__description">
+                    <span>Phone:</span> +62 8952 5873 053
+                </p>
+                <p class="footer__description">
+                    <span>Hours:</span> 08:00 - 20:00, Mon - Sat
+                </p>
+                <div class="footer__social">
+                    <h4 class="footer__subtitle">Follow Me</h4>
+                    <div class="footer__links flex">
+                        <a href="https://www.facebook.com/naufal.kenmahdy?mibextid=JRoKGi">
+                            <img src="./assets/img/icon-facebook.svg" alt="" class="footer__social-icon" />
+                        </a>
+                        <a href="https://www.instagram.com/meidhana_?igsh=YzEzdnk3aHpxcGdn">
+                            <img src="./assets/img/icon-instagram.svg" alt="" class="footer__social-icon" />
+                        </a>
+                        <a href="https://wa.me/6289525873053">
+                            <img src="./assets/img/icon-whatsapp.svg" alt="" class="footer__social-icon" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Address</h3>
+                <ul class="footer__links">
+                    <li><a href="compare.html" class="footer__link">About Us</a></li>
+                    <li><a href="#" class="footer__link">Delivery Information</a></li>
+                    <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                    <li><a href="#" class="footer__link">Terms & Conditions</a></li>
+                    <li><a href="#" class="footer__link">Contact Us</a></li>
+                    <li><a href="#" class="footer__link">Support Center</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">My Account</h3>
+                <ul class="footer__links">
+                    <li><a href="login-register.html" class="footer__link">Sign In</a></li>
+                    <li><a href="cart.html" class="footer__link">View Cart</a></li>
+                    <li><a href="wishlist.html" class="footer__link">My Wishlist</a></li>
+                    <li><a href="#" class="footer__link">Track My Order</a></li>
+                    <li><a href="#" class="footer__link">Help</a></li>
+                    <li><a href="shop.html" class="footer__link">Order</a></li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Secured Payed Gateways</h3>
+                <img src="./assets/img/payment-method.png" alt="" class="payment__img" />
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="copyright">&copy; 2024 Lumiere Bakery. All right reserved</p>
+            <span class="designer">Designer by 202251033(Naufal Meidhana Kenmahdy)</span>
+        </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
